@@ -1,13 +1,12 @@
 
-// kilmeter to meter
+
 function kilometerToMeter(n){
     return n*1000
 }
 
-let meter = kilometerToMeter(1)
-console.log(meter)
 
-//budget Calculator
+
+
 
 function budgetCalculator(watch,phone,laptop){
     
@@ -16,9 +15,10 @@ function budgetCalculator(watch,phone,laptop){
     let lapTop = laptop * 500;
     return watCh + phoNe + lapTop;
 }
-let result = budgetCalculator(0,5,0)
-console.log(result)
-// hotel cost
+
+
+
+
 function hotelCost(day){
     let totalCost = 0;
     if (day <=10){
@@ -38,13 +38,11 @@ function hotelCost(day){
     }
         return totalCost
     }
-    let reslt = hotelCost(22)
-    console.log(reslt)
 
 
 
-//name length
-let friend = ["kamaL","jamal","nasIr","kariMe"]
+
+
 
 function megaFriend(array){
     let result ="";
@@ -58,5 +56,3 @@ function megaFriend(array){
     return result
 }
 
-let t = megaFriend(friend)
-console.log(t)
